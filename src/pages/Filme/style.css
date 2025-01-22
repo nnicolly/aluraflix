@@ -1,0 +1,104 @@
+.form-container {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .form-container p {
+    text-align: center;
+    color: #cccccc;
+    margin-top: 0.5rem;
+  }
+  
+  .card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .form-group label.required::after {
+    content: "*";
+    color: #ff0000;
+    margin-left: 4px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .form-group input::placeholder,
+  .form-group select::placeholder,
+  .form-group textarea::placeholder {
+    color: #666;
+  }
+  
+  .form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .button-group button {
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .button-group button:hover {
+    opacity: 0.9;
+  }
+  
+  .save-button {
+    background-color: #2962ff;
+    color: white;
+    border: none;
+  }
+  
+  .clear-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #666;
+  }
+  
+  

@@ -1,0 +1,120 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #001b3d;
+    border-radius: 8px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    color: white;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .modal-title {
+    color: #5ed3f3;
+    font-size: 24px;
+    margin: 0 0 24px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #5ed3f3;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(94, 211, 243, 0.3);
+  }
+  
+  .form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%235ED3F3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  
+  .btn-guardar,
+  .btn-limpar {
+    padding: 12px 32px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-guardar {
+    background-color: #5ed3f3;
+    border: none;
+    color: #001b3d;
+  }
+  
+  .btn-guardar:hover {
+    background-color: #4bc0e0;
+  }
+  
+  .btn-limpar {
+    background-color: transparent;
+    border: 1px solid #5ed3f3;
+    color: #5ed3f3;
+  }
+  
+  .btn-limpar:hover {
+    background-color: rgba(94, 211, 243, 0.1);
+  }
+  
+  

@@ -1,0 +1,104 @@
+.filmes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 32px 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.categoria-titulo {
+    background-color: #007aff;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+}
+
+.romance .categoria-titulo {
+    background-color: #ff4d4d;
+}
+
+.comédia .categoria-titulo {
+    background-color: #b19215;
+}
+
+.terror .categoria-titulo {
+    background-color: #303030;
+}
+
+.filmes-cards {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    overflow-x: scroll;
+    padding: 10px;
+    scrollbar-width:10px;
+    scrollbar-color: #2271D1 #2271D12B;
+}
+
+
+
+.filme-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 0 0 auto; /* Garante que os cartões não encolham e respeitem o tamanho definido */
+    width: 350px; /* Largura fixa para os cartões */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.filme-card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* Adiciona leve ampliação ao passar o mouse */
+}
+
+
+.filme-thumb {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.filme-titulo {
+    font-size: 18px;
+    margin: 10px 10px 5px;
+    color: #fff;
+}
+
+.filme-descricao {
+    font-size: 16px;
+    margin: 0 10px 10px;
+    color: #ccc;
+}
+
+.filme-acoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #333;
+}
+
+.btn-editar,
+.btn-deletar {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+    background-color: #007aff;
+}
+
+.btn-deletar:hover {
+    background-color: #ff4d4d;
+}

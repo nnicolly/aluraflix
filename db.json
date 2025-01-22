@@ -1,0 +1,20 @@
+{
+  "filmes": [
+    {
+      "id": "2",
+      "titulo": "Diário de uma Paixão",
+      "categoria": "Romance",
+      "descricao": "Uma história de amor inesquecível entre Noah e Allie, que lutam para superar as diferenças sociais e viver seu romance",
+      "imagemUrl": "https://media.themoviedb.org/t/p/w533_and_h300_bestv2/qyjw1ufMF4Iv0lBp073pB4j3WPf.jpg",
+      "filmeUrl": "https://www.primevideo.com/detail/0Q3BGO06JJV3U877CLAZWZDPLV/ref=atv_dl_rdr"
+    },
+    {
+      "id": "5704",
+      "titulo": "Superbad",
+      "categoria": "Comédia",
+      "descricao": "Filmaço kkkkk mc lovin",
+      "imagemUrl": "https://media.themoviedb.org/t/p/w533_and_h300_bestv2/giYuvpmpZbwkT3NtX4WdNYqGhxw.jpg",
+      "filmeUrl": "https://media.themoviedb.org/t/p/w533_and_h300_bestv2/giYuvpmpZbwkT3NtX4WdNYqGhxw.jpg"
+    }
+  ]
+}
