@@ -7,5 +7,5 @@ O Aluraflix é uma plataforma de vídeos simples e intuitiva, projetada para ger
 
 ## Tecnologias utilizadas
 - **React.js**: Biblioteca para construção da interface.
-- **JavaScript **: Lógica do projeto.
+- **JavaScript**: Lógica do projeto.
 - **HTML5 e CSS**: Estruturação e estilização do layout.
